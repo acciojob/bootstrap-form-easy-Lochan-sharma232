@@ -33,7 +33,7 @@
 	<div class="mb-3">
   <label for="grad-year-select" class="form-label">Graduation Year</label>
   <input type="checkbox" class="form-control" id="grad-year-select" placeholder="" required>
-		<select class="form-select" id="grad-year-select">
+		<select class="form-select" id="grad-year-select" required>
 			<option value="2020">2020</option>
 			<option value="2021">2021</option>
 			<option value="2022">2022</option>
@@ -46,7 +46,7 @@
 </div>
 
 <div class="mb-3 form-check">
-  <input type="checkbox" class="form-check-input" id="conditions-checkbox" >
+  <input type="checkbox" class="form-check-input" id="conditions-checkbox">
   <label class="condition-checkbox" for="conditions-checkbox">Agree to terms and conditions</label>
 </div>
 		<button type="submit" class="btn btn-primary">Submit Form</button>
@@ -68,7 +68,7 @@
 	
 <div class="mb-3">
 	<label for="email-input" class="email-label">Email</label>
-  <input type="email" class="form-control is -invalid-feedback" id="email-input" placeholder="xyz@abc.com" value="xyz@abc.com" required>
+  <input type="email" class="form-control is-invalid-feedback" id="email-input" placeholder="xyz@abc.com" value="xyz@abc.com" required>
   <label for="Email address">Email Required</label>
 </div>
 	
@@ -81,7 +81,7 @@
 <div class="mb-3">
 		<label for="grad-year-input" class="grad-year-label">Graduation Year</label>
 <input type="number" class="form-control is -invalid-feedback" id="grad-year-input" placeholder="Choose..." value="Choose... " required>
-  <select class="form-select" id="grad-year-select">
+  <select class="form-select" id="grad-year-select" required>
 			<option value="2020">2020</option>
 			<option value="2021">2021</option>
 			<option value="2022">2022</option>
